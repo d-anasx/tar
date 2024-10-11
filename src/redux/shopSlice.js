@@ -4,8 +4,8 @@ const shopSlice = createSlice({
     name: 'shop',
     initialState: {
         products: [
-            { id: 10, designation: 'article1', famille: 'informatique' },
-            { id: 11, designation: 'article2', famille: 'bureau' },
+            { id: 10, designation: 'article1', famille: 'informatique', photo: null},
+            { id: 11, designation: 'article2', famille: 'bureau', photo: null},
         ],
     },
     reducers: {
